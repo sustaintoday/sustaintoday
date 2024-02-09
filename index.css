@@ -1,0 +1,538 @@
+body{
+    background-color: rgb(240, 231, 226);
+    margin: 0px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    width: 1536px;
+    padding-bottom: 40px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.header{
+    width: 1536px;
+    height: 52px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.li-logo{
+    margin-left: 202px;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script', cursive;
+    margin-right: 81px;
+    font-size: 26px;
+}
+.li-rest{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 19px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.li-rest:hover{
+    color: rgb(218, 199, 185);
+}
+.header-icon{
+    margin-left: 500px;
+    margin-right: 150px;
+}
+.header-button{
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.icon-love{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.img-section{
+    display: flex;
+    align-items: center;
+
+}
+.big-image{
+    height: 700px;
+    width: 980px;
+}
+.img-para{
+    width: 790px;
+    height: 410px; 
+    margin-left: -300px;
+    background-color:rgb(240, 231, 226) ;
+    justify-items: center;
+}
+.img-para-hd{
+    font-size: 54px;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.img-para-hd-2{
+    font-size: 54px;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script', cursive;
+    margin-left: 200px;
+}
+.img-para-co{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.img-para-co-co{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+    margin-bottom: 0px;
+}
+.img-para-co-2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+    margin-left: 150px;
+    margin-top: 0px;
+}
+.img-btn-div{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.img-btn-1{
+    width: 170px;
+    height: 47px;
+    background-color: rgb(50, 50, 50);
+    margin-right: 16px;
+    color: white;
+    box-shadow: none;
+    transition: all 0.5s;
+    outline: none;
+    border-width: 1px;
+    
+}
+.img-btn-1:hover{
+    background-color: rgb(240, 231, 226);
+    color: rgb(50, 50, 50);
+    border-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+.img-btn-2{
+    width: 170px;
+    height: 47px;
+    border-radius: 0px;
+    background-color: rgb(240, 231, 226);
+    border-color: rgb(50, 50, 50);
+    margin-left: 0px;
+    color: rgb(50, 50, 50);
+    border-width: 1px;
+    transition: all 0.5s;
+}
+.img-btn-2:hover{
+    background-color: rgb(50, 50, 50);
+    color: rgb(240, 231, 226);
+    border-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+.end-section{
+    width: 1550px;
+    height: 375px;
+    background-color: rgb(218, 199, 185);
+    margin-left: -15px;
+    margin-right: 0px;
+    margin-top: -3px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.heading_end_div{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.heading_end{
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script',cursive;
+    font-size: 40px;
+}
+.end_paragraph_heading{
+    color: rgb(50, 50, 50);
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.end_paragraph_subheading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 54px;
+    color: rgb(50, 50, 50);
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+.end_paragraph_content{
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+}
+.img-1-div{
+    margin: 0px;
+    display: flex;
+    width: 780px;
+    height: 831px;
+    justify-content: center;
+    align-items: center;
+    grid-row: span 2;
+}
+.img-1{
+    position: absolute;
+    margin-top: 0px;
+    width: 780px;
+    height: 831px;
+}
+.img-1-co-div{
+    position: relative;
+    
+}
+.img-1-h{
+    position: relative;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script';
+    font-size: 32px;
+    text-align: center;
+    
+
+}
+.img-1-para{
+    color: rgb(50, 50, 50);
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 18px;
+    text-align: center;
+}
+.img-1-btn{
+    width: 140px;
+    height: 47px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    text-decoration: bold;
+    box-shadow: none;
+    transition: all 0.5s;
+    outline: none;
+    border-width: 0px;
+    margin-left: 100px;
+    
+}
+.img-1-btn:hover{
+    background-color: rgb(240, 231, 226);
+    color: rgb(50, 50, 50);
+    border-width: 1px;
+    border-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+.img-2-div{
+    display: flex;
+    margin-left: 27px;
+    height: 372px;
+    width: 752px;
+}
+.img-place{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0px;
+    row-gap: 50px;
+}
+.img-2{
+    position: absolute;
+    height: 390px;
+    width: 745px;
+    align-items: center;
+    justify-content: center;
+}
+.img-2-co-div{
+    position: relative;
+    margin-left: 175px;
+    margin-top: 50px;
+    
+}
+.img-2-h{
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script';
+    font-size: 32px;
+    text-align: center; 
+}
+.img-2-para{
+    color: rgb(50, 50, 50);
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 18px;
+    text-align: center;
+}
+.img-2-btn{
+    width: 140px;
+    height: 47px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    text-decoration: bold;
+    box-shadow: none;
+    transition: all 0.5s;
+    outline: none;
+    border-width: 0px;
+    margin-left: 100px;
+    
+}
+.img-2-btn:hover{
+    background-color: rgb(240, 231, 226);
+    color: rgb(50, 50, 50);
+    border-width: 1px;
+    border-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+.img-3-div{
+    flex-wrap: wrap-reverse;
+    margin-left: 25px;
+}
+.img-place-2{
+    margin-left: 793px;
+    margin-top: -439px;
+    height: fit-content;
+    width: fit-content;
+}
+.img-3{
+    position: absolute;
+    height: 390px;
+    width: 745px;
+
+}
+.img-3-co-div{
+    position: relative;
+    margin-left: 175px;
+    margin-top: 50px;
+    transform: translate(20px 20px);
+    
+}
+.img-3-h{
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script';
+    font-size: 32px;
+    text-align: center; 
+}
+.img-3-para{
+    color: rgb(50, 50, 50);
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 18px;
+    text-align: center;
+}
+.img-3-btn{
+    width: 140px;
+    height: 47px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    text-decoration: bold;
+    box-shadow: none;
+    transition: all 0.5s;
+    outline: none;
+    border-width: 0px;
+    margin-left: 100px;
+    
+}
+.img-3-btn:hover{
+    background-color: rgb(240, 231, 226);
+    color: rgb(50, 50, 50);
+    border-width: 1px;
+    border-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+.blog-1{
+    background-color: rgb(218, 199, 185);
+    height: 710px;
+    width: 1536px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    
+    
+}
+.blog-1-img{
+  width: 1110px;
+  height: 555px; 
+  margin-top: -70px; 
+  margin-bottom: 10px;
+  
+}
+.blog-det-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: -1010px;
+}
+.blog-h-1{
+    font-size: 24px;
+    color: rgb(50, 50, 50);
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: bolder;
+}
+.blog-d-1{
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 5px;
+}
+.blog-de-1{
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+.blog-h-div{
+    margin-left: -1020px;
+}
+.blog-2{
+    background-color: rgb(240, 231, 226);
+    height: 562.2px;
+    width: 1536px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-column: 1fr 1fr;
+}
+.blog-21-img{
+    height: 350px;
+    width: 520px;
+}
+.blog-22-img{
+    height: 350px;
+    width: 540;
+}
+.gallery{
+    background-color: rgb(218, 199, 185);
+    height: 600px;
+    width: 1536px;
+    padding-top: 20px;
+    
+    
+}
+.g-pic{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+.g-pics{
+    height: 334px;
+    width: 326px;
+}
+.g-h-c{
+    font-size: 48px;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script';
+    font-weight: bolder;
+}
+.g-h{
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.g-h2{
+    grid-column: span 2;
+}
+.forum-div{
+    background-color: #f0e7e2;
+    height: 339.5px;
+    width: 1536px;
+    display: flex;
+    
+}
+.forum-img{
+    height: 339.5px;
+    width: 614.5px;
+}
+.form-h{
+    font-size: 40px;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script';
+    margin-bottom: 0px;
+}
+.forum-text-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 500px;
+    
+}
+.forum-int-div{
+    margin-top: 200px;
+    display: flex;
+    margin-left: -320px;
+}
+.forum{
+    height: 52px;
+    width: 525px;
+    margin-right: 0px;
+    border-width: 1px;
+    border-color: rgb(50, 50, 50);
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(240, 231, 226);
+    outline: none;
+    margin-left: -500px;
+    margin-top: 200px;
+
+}
+.forum:focus{
+    border-color: white;
+}
+.forum-btn{
+    margin-left: -120px;
+    width: 131px;
+    height: 56px;
+    color: white;
+    border-color: rgb(50, 50, 50);
+    border-width: 1px;
+    background-color: rgb(50, 50, 50);
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-top: 200px;
+    transition: all 0.5s;
+}
+.forum-btn:hover{
+    background-color: rgb(240, 231, 226);
+    color: rgb(50, 50, 50);
+    border-width: 1px;
+    cursor: pointer;
+}
+.form-p{
+    color: rgb(50, 50, 50);
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+    width: 500px;
+
+}
+.footer{
+    width: 1536px;
+    height: 170px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot-logo{
+    font-size: 24px;
+    font-family: 'Dancing Script';
+}
+.foot-p{
+    font-size: 18px;
+    font-family: 'Quicksand',sans-serif;
+}

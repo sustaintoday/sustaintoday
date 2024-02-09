@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable products</title>
+    <link rel="stylesheet" href="carbon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <a href="index.html" class="li-logo">Logo</a>
+            <a href="index.html" class="li-rest">Home</a>
+            <a href="about.html" class="li-rest">About Us</a>
+            <a href="Carbon.html" class="li-rest">Carbon</a>
+            <a href="store.html" class="li-rest">Store</a>
+            <a href="blog.html" class="li-rest">Blog</a>
+        </div>
+        <div class="header-icon">
+            <button class="header-button">Contact Us</button>
+        </div>
+    </div>
+   <div class="input">
+        <div class="textbox-div">
+            <p class="input-p">Enter your monthly electricity bill</p>    
+            <input type="number" class="textbox" id="electricity">
+        </div>
+        <div class="textbox-div"> 
+            <p class="input-p">Enter your monthly gas bill</p>   
+            <input type="number" class="textbox"  id="gas">
+        </div>
+        <div class="textbox-div">    
+            <p class="input-p">Enter your monthly oil bill</p>
+            <input type="number" class="textbox" id="oil">
+        </div>
+        <div class="textbox-div">
+            <p class="input-p">Total yearly mileage on your car</p>
+            <input type="number" class="textbox" id="mileage">
+
+        </div>
+        <div class="textbox-div">
+            <p class="input-less">Number of flights you have taken past year 4 hours or less</p>
+            <input type="number" class="textbox-less"  id="flight-less">
+        </div>
+        <div class="textbox-div">
+            <p class="input-less">Number of flights you have taken past year 4 hours or more</p>
+            <input type="number" class="textbox-less" id="flight-more">
+        </div>
+        <div class="checkbox-div">
+            <p class="checkbox-p">Do you recycle newspaper</p>
+            <input type="checkbox" class="checkbox1" id="newspaper">
+        </div>
+        <div class="checkbox-div2">
+            <p class="checkbox-p">Do you recycle aluminium and tin</p>
+            <input type="checkbox" class="checkbox2" id="aluminium">
+        </div>
+        <div class="btn-div">
+            <button onclick="calculate()" class="btn">Calculate</button>
+        </div>
+    </div>
+</body>
+</html>

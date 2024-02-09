@@ -1,0 +1,318 @@
+body{
+    background-color: rgb(240, 231, 226);
+    margin: 0px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    width: 1536px;
+    padding-bottom: 40px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.header{
+    width: 1536px;
+    height: 52px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.li-logo{
+    margin-left: 202px;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script', cursive;
+    margin-right: 81px;
+    font-size: 26px;
+}
+.li-rest{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 19px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.li-rest:hover{
+    color: rgb(218, 199, 185);
+}
+.header-icon{
+    margin-left: 500px;
+    margin-right: 150px;
+}
+.header-button{
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.icon-love{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.abt-me{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.abt-text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 409.2px;
+}
+.abt-h{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.h1-abt{
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(50, 50, 50);
+    margin-left: 20px;
+}
+.h2-abt{
+    font-size: 52px;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script', cursive;
+    margin-top: -10px;
+    
+}
+.abt-p-div{
+    margin-top: -20px;
+}
+.abt-p{
+    text-align: center;
+    color: rgb(50, 50, 50);
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.img-abt-div{
+    width: 723px;
+    height: 425px;
+    
+}
+.img-abt{
+    width: 693px;
+    height: 425px;
+}
+.service{
+    border-color: white;
+    border-top-width: 20px;
+    border-right-width: 20px;
+}
+.services-div{
+    width: 100%;
+    height: 622.7px;
+    background-color: rgb(218, 199, 185);
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 458px 458px 458px;
+    row-gap: 30px;
+    justify-content: space-evenly;
+}
+.service-h-div{
+    margin-left: -10px;
+    grid-column: 1/5;
+}
+.service-h{
+    font-size: 52px;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script', cursive;
+}
+.service-img{
+    width: 388.65px;
+    height: 260.1px;
+}
+.service-h-2{
+    color: rgb(50, 50, 50);
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0px;
+}
+.service-p{
+    color: rgb(50, 50, 50);
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px;
+}
+.inter-div{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    display: flex;
+}
+.inter-h-div{
+    width: 763px;
+    height: 181.2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.inter-p-div{
+    width: 763px;
+    height: 181.2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.inter-h1{
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(50, 50, 50);
+    margin-bottom: 0px;
+}
+.inter-h2{
+    font-size: 54px;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10px;
+}
+.inter-p{
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(50, 50, 50);
+}
+.insta-big-div{
+    width: 1536px;
+    height: 518.4px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgb(218, 199, 185);
+    display: flex;
+    justify-content: space-evenly;
+}
+.insta-vid{
+    width: 324px;
+    height: 406px;
+}
+.socials-div{
+    width: 1536px;
+    height: 200px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 800px 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.social-div{
+    display: flex;
+    
+}
+
+.socials-h{
+    font-size: 24px;
+    color: rgb(50, 50, 50);
+    font-family: 'Quicksand', sans-serif;
+}
+.icon{
+    height: 30px;
+    width: 20px;
+}
+.icon-div{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(185, 174, 168);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.forum-div{
+    background-color: #dac7b9;
+    height: 339.5px;
+    width: 1536px;
+    display: flex;   
+}
+.forum-img{
+    height: 339.5px;
+    width: 614.5px;
+}
+.form-h{
+    font-size: 40px;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script';
+    margin-bottom: 0px;
+}
+.forum-text-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 500px;
+    
+}
+.forum-int-div{
+    margin-top: 200px;
+    display: flex;
+    margin-left: -320px;
+}
+.forum{
+    height: 52px;
+    width: 415px;
+    margin-right: 0px;
+    border-width: 1px;
+    border-color: rgb(50, 50, 50);
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(240, 231, 226);
+    outline: none;
+    margin-left: -180px;
+
+}
+.forum-btn{
+    margin-left: 0px;
+    width: 131px;
+    height: 56px;
+    color: white;
+    border-color: rgb(50, 50, 50);
+    border-width: 1px;
+    background-color: rgb(50, 50, 50);
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.form-p{
+    color: rgb(50, 50, 50);
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+    width: 500px;
+
+}
+.footer{
+    width: 1536px;
+    height: 170px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot-logo{
+    font-size: 24px;
+    font-family: 'Dancing Script';
+}
+.foot-p{
+    font-size: 18px;
+    font-family: 'Quicksand',sans-serif;
+}

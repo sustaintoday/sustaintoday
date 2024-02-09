@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(240, 231, 226);
+    margin: 0px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    width: 1536px;
+    padding-bottom: 40px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.header{
+    width: 1536px;
+    height: 52px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.li-logo{
+    margin-left: 202px;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script', cursive;
+    margin-right: 81px;
+    font-size: 26px;
+}
+.li-rest{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 19px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.li-rest:hover{
+    color: rgb(218, 199, 185);
+}
+.header-icon{
+    margin-left: 500px;
+    margin-right: 150px;
+}
+.header-button{
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.icon-love{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.blog-1-div{
+    width: 1536px;
+    height: 516px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding: left 100px;
+    padding-right: 100px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.blog-name{
+    font-family: 40px;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script';
+}
+.blog-d{
+    font-size: 12px;
+    font-family: 'Quicksand',sans-serif;
+    color: rgb(50, 50, 50);
+}
+.h2{
+    font-size: 16px;
+    font-family: 'Quicksand',sans-serif;
+    color: rgb(50, 50, 50);
+    font-weight: bolder;
+}
+.p1{
+    font-size: 18px;
+    font-family: 'Quicksand',sans-serif;
+    color: rgb(50, 50, 50);
+}
+.p-2{
+    font-size: 18px;
+    font-family: 'Quicksand',sans-serif;
+    color: rgb(50, 50, 50);
+}
+
+.footer{
+    width: 1536px;
+    height: 170px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot-logo{
+    font-size: 24px;
+    font-family: 'Dancing Script';
+}
+.foot-p{
+    font-size: 18px;
+    font-family: 'Quicksand',sans-serif;
+}

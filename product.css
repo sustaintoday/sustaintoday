@@ -1,0 +1,233 @@
+body{
+    background-color: rgb(240, 231, 226);
+    margin: 0px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    width: 1536px;
+    padding-bottom: 40px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.header{
+    width: 1536px;
+    height: 52px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.li-logo{
+    margin-left: 202px;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script', cursive;
+    margin-right: 81px;
+    font-size: 26px;
+}
+.li-rest{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 19px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.li-rest:hover{
+    color: rgb(218, 199, 185);
+}
+.header-icon{
+    margin-left: 500px;
+    margin-right: 150px;
+}
+.header-button{
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.icon-love{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.store {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: -200px;
+  }
+  
+  .rating input[type="radio"] {
+    display: none;
+  }
+  
+  .rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .rating input[type="radio"]:checked ~ label {
+    color: rgb(50, 50, 50);
+  }
+  
+  .rating input[type="radio"] {
+    display: none;
+  }
+  
+  .rating label {
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .rating input[type="radio"]:checked ~ label {
+    color: rgb(50, 50, 50)
+  }
+.slider-container {
+    position: relative;
+    width: fit-content;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 0px;
+  }
+  
+  .slider {
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slides {
+    display: flex;
+    border-color: black;
+    border-width: 2px;
+  }
+  
+  .slides img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  
+  .thumbnails img {
+    width: 138px;
+    height: 139px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-color: black;
+    border-width: 2px;
+  }
+  
+  .thumbnails img:hover {
+    opacity: 0.7;
+  }
+  .product-d-div{
+    margin-left: -100px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    row-gap: 20px;
+    grid-template-rows: 50px 20px 100px 20px ;
+    column-gap: 10px;
+  }
+  .product-h{
+    font-family: 'Quicksand',sans-serif;
+    color: rgb(50, 50, 50);
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .product-p{
+    font-family: 'Quicksand',sans-serif;
+    color: rgb(50, 50, 50);
+    font-size: 14px;
+    font-weight: 400;
+    text-wrap: balance;
+    margin-top: 0px;
+    line-height: 22.4px;
+    
+  }
+  .product-a{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(50, 50, 50);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .product-price{
+    font-size: 18px;
+    font-family: 'Quicksand',sans-serif;
+    color: rgb(50, 50, 50);
+    margin-top: 0px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+.buy-btn{
+  background-color: rgb(50, 50, 50);
+  font-size: 16px;
+  font-family: 'Quicksand',sans-serif;
+  color: white;
+  width: 349.8px;
+  height: 44.8px;
+  font-weight: bolder;
+  outline: none;
+  transition: 0.5s all;
+}
+.buy-btn:active{
+  outline: none;
+  opacity: 0.7;
+}
+.buy-btn:hover{
+  background-color: white;
+  color: rgb(50, 50, 50);
+  cursor: pointer;
+  border-width: 1px;
+  border-color: rgb(50, 50, 50);
+}
+.footer{
+    width: 1536px;
+    height: 170px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-logo{
+    font-size: 24px;
+    font-family: 'Dancing Script';
+}
+.foot-p{
+    font-size: 18px;
+    font-family: 'Quicksand',sans-serif;
+}
