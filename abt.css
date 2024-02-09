@@ -79,6 +79,31 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
 }
+.gallery{
+    background-color: rgb(218, 199, 185);
+}
+.g-pic{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+.g-pics{
+    height: 334px;
+    width: 326px;
+}
+.g-h-c{
+    font-size: 48px;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script';
+    font-weight: bolder;
+}
+.g-h{
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.g-h2{
+    grid-column: span 2;
+}
 .h1-abt{
     font-size: 24px;
     font-family: 'Quicksand', sans-serif;
