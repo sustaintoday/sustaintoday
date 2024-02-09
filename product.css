@@ -23,11 +23,9 @@ body{
 }
 .li-logo{
     margin-left: 202px;
-    text-decoration: none;
-    color: rgb(50, 50, 50);
-    font-family: 'Dancing Script', cursive;
-    margin-right: 81px;
-    font-size: 26px;
+    height: 90px;
+    width: 140px;
+    margin-right: 50px;
 }
 .li-rest{
     text-decoration: none;
