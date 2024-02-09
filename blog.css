@@ -23,9 +23,11 @@ body{
 }
 .li-logo{
     margin-left: 202px;
-    height: 90px;
-    width: 140px;
-    margin-right: 50px;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-family: 'Dancing Script', cursive;
+    margin-right: 81px;
+    font-size: 26px;
 }
 .li-rest{
     text-decoration: none;
@@ -62,15 +64,17 @@ body{
 }
 .blog-1-div{
     width: 1536px;
-    height: 516px;
+    height: 700px;
     background-color: rgb(255, 255, 255);
-    padding-top: 30px;
-    padding: left 100px;
-    padding-right: 100px ;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 100px;
     
+}
+.blog1-2{
+    display: flex;
+    flex-direction: column;
 }
 .blog-name{
     font-family: 40px;
@@ -92,11 +96,21 @@ body{
     font-size: 18px;
     font-family: 'Quicksand',sans-serif;
     color: rgb(50, 50, 50);
+    text-wrap: balance ;
+    margin-bottom: 10px;
 }
 .p-2{
     font-size: 18px;
     font-family: 'Quicksand',sans-serif;
     color: rgb(50, 50, 50);
+    text-wrap: balance;
+    margin-bottom: 10px;
+}
+.p-2{
+    font-size: 18px;
+    font-family: 'Quicksand',sans-serif;
+    color: rgb(50, 50, 50);
+    text-wrap: balance;
 }
 
 .footer{
