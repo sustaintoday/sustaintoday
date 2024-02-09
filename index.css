@@ -300,6 +300,7 @@ body{
 .img-3-div{
     flex-wrap: wrap-reverse;
     margin-left: 25px;
+    align-items: center;
 }
 .img-place-2{
     margin-left: 793px;
@@ -315,7 +316,7 @@ body{
 }
 .img-3-co-div{
     position: relative;
-    margin-left: 175px;
+    
     margin-top: 50px;
     transform: translate(20px 20px);
     
@@ -342,7 +343,7 @@ body{
     transition: all 0.5s;
     outline: none;
     border-width: 0px;
-    margin-left: 100px;
+    margin-left: 300px;
     
 }
 .img-3-btn:hover{
