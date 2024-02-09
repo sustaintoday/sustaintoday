@@ -81,6 +81,7 @@ body{
 }
 .gallery{
     background-color: rgb(218, 199, 185);
+    padding-bottom: 50px;
 }
 .g-pic{
     display: flex;
